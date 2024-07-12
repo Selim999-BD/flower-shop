@@ -34,6 +34,9 @@ a{
 .black-2{
     color:#272727be;
 }
+.black-3{
+    color:#272727d3;
+}
 /* header style */
 .container{
     width:80%;
@@ -70,7 +73,7 @@ a{
     height:140px;
     margin:174px 520px 0px 520px;
 }
-.upcoming-title{
+.upcoming-title,.offer-count{
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 24px;
@@ -102,4 +105,41 @@ a{
 }
 #box-3{
     background-color: #477d1123;
+}
+/* service style */
+.delivery{
+    background-color: rgba(128, 128, 128, 0.164);
+    display: flex;
+    margin: 100px 0;
+}
+.service{
+    height:150px;
+    padding:86px 100px;
+}
+.service >img{
+    width:88px;
+    height:88px;
+}
+.service-details{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* offer style */
+.offer{
+    background-color: #e554731c;
+}
+.offer-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    color:#E55473;
+}
+.offer-details{
+    font-size: 18px;
+    font-weight: 500;
+    color:#272727cb;
+    margin-bottom: 20px;
 }
